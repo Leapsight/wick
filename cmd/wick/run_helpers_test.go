@@ -30,8 +30,8 @@ import (
 	"github.com/gammazero/nexus/v3/wamp"
 	"github.com/stretchr/testify/assert"
 
-	main "github.com/s-things/wick/cmd/wick"
-	"github.com/s-things/wick/internal/testutil"
+	main "github.com/Leapsight/wick/cmd/wick"
+	"github.com/Leapsight/wick/internal/testutil"
 )
 
 const (

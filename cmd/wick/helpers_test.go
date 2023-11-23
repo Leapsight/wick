@@ -41,9 +41,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	main "github.com/s-things/wick/cmd/wick"
-	"github.com/s-things/wick/core"
-	"github.com/s-things/wick/internal/testutil"
+	main "github.com/Leapsight/wick/cmd/wick"
+	"github.com/Leapsight/wick/core"
+	"github.com/Leapsight/wick/internal/testutil"
 )
 
 const (

@@ -33,7 +33,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/s-things/wick/core"
+	"github.com/Leapsight/wick/core"
 )
 
 const (

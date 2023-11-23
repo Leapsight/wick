@@ -43,9 +43,9 @@ brews:
     name: wick
     # Template for the url which is determined by the given Token (github or gitlab)
     # Default for github is "https://github.com/<repo_owner>/<repo_name>/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
-    url_template: "https://github.com/s-things/wick/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    url_template: "https://github.com/Leapsight/wick/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
 
-    homepage: https://github.com/s-things/wick
+    homepage: https://github.com/Leapsight/wick
 
     # Git author used to commit to the repository.
     # Defaults are shown.

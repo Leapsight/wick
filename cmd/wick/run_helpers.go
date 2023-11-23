@@ -35,7 +35,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/exp/slices"
 
-	"github.com/s-things/wick/core"
+	"github.com/Leapsight/wick/core"
 )
 
 type argsKwargs struct {

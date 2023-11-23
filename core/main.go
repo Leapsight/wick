@@ -37,7 +37,7 @@ import (
 	"github.com/gammazero/workerpool"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/s-things/wick/internal/util"
+	"github.com/Leapsight/wick/internal/util"
 )
 
 func connect(url string, cfg client.Config) (*client.Client, error) {

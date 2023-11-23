@@ -42,7 +42,7 @@ import (
 	"gopkg.in/alecthomas/kingpin.v2"
 	"gopkg.in/yaml.v3"
 
-	"github.com/s-things/wick/core" // nolint:gci
+	"github.com/Leapsight/wick/core" // nolint:gci
 )
 
 var (

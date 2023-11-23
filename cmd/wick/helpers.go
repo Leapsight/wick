@@ -43,8 +43,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/ini.v1"
 
-	"github.com/s-things/wick/core"
-	"github.com/s-things/wick/internal/util"
+	"github.com/Leapsight/wick/core"
+	"github.com/Leapsight/wick/internal/util"
 )
 
 const (

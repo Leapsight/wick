@@ -97,7 +97,7 @@ wick --url ws://localhost:8080/ws --realm realm1 publish foo.bar arg1 arg2 --kwa
 Wick supports reading environment variables for all the WAMP config (realm, URL, authid, private-key...).
 This is makes it effective to integrate in CI scenarios.
 ```shell
-export WICK_URL=ws://localhost:8080/ws
+export WICK_URL=ws://localhost:18080/ws
 export WICK_REALM=something
 wick call foo.bar
 ```
@@ -124,15 +124,15 @@ sudo snap install wick --classic
 ```
 On macOS use brew
 ```shell
-brew tap s-things/wick https://github.com/s-things/wick
+brew tap Leapsight/wick https://github.com/Leapsight/wick
 brew install wick
 ```
 
 ## How to build
 ```bash
-git clone git@github.com:s-things/wick.git
+git clone git@github.com:Leapsight/wick.git
 cd wick
-go get github.com/s-things/wick/cmd/wick
-go build github.com/s-things/wick/cmd/wick
+go get github.com/Leapsight/wick/cmd/wick
+go build github.com/Leapsight/wick/cmd/wick
 ./wick
 ```

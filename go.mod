@@ -1,4 +1,4 @@
-module github.com/s-things/wick
+module github.com/Leapsight/wick
 
 go 1.18
 
